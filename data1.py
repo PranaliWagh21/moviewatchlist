@@ -206,7 +206,7 @@ info_label = Label(frame, text="This page is protected by Google reCAPTCHA to en
 info_label.pack(pady=(5, 0))
 
 # --- Main App Content ---
-root.withdraw()  # Hide main app window initially
+root.withdraw()
 
 image = Image.open("logo.jpg")
 resized = image.resize((150, 150))
@@ -216,26 +216,30 @@ logo_label = tk.Label(root, image=logo, bd=0)
 logo_label.pack(side="top", anchor="w", padx=5, pady=5)
 logo_label.image = logo
 
-sidebar = tk.Frame(root, bg="#111", width=200)
-sidebar.pack(side="left", fill="y")
+# 🔄 Horizontal Navigation Bar
+topbar = tk.Frame(root, bg="#111")
+topbar.pack(side="top", fill="x")
 
 main_frame = tk.Frame(root, bg="#0D1D28")
-main_frame.pack(side="right", fill="both", expand=True)
+main_frame.pack(side="top", fill="both", expand=True)
 
 nav_buttons = [
-    ("All", show_all),
-    ("Continue Watchlist", show_continue_watchlist),
+    ("Home", show_all),
+    ("Continue Watching", show_continue_watchlist),
     ("Bollywood", lambda: show_category("Bollywood")),
-    ("Holywood", lambda: show_category("Hindi")),
+    ("Hollywood", lambda: show_category("Hindi")),
+    ("Tollywood", lambda: show_category("south")),
+    ("Marathi Movies", lambda: show_category("Marathi")),
     ("Series", lambda: show_category("Series")),
     ("Anime", lambda: show_category("Anime")),
+    ("TV shows", lambda: show_category("Hindi")),
     ("Suggestions", show_suggestions),
     ("History", show_history),
 ]
 
 for text, cmd in nav_buttons:
-    btn = tk.Button(sidebar, text=text, command=cmd, bg="#222", fg="white", relief="flat", anchor="w", padx=10)
-    btn.pack(fill="x", pady=2)
+    btn = tk.Button(topbar, text=text, command=cmd, bg="#0D1D28", fg="white", relief="flat", padx=20, pady=9)
+    btn.pack(side="left", padx=1, pady=1)
 
 title_var = tk.StringVar()
 search_var = tk.StringVar()
