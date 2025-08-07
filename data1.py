@@ -1,4 +1,6 @@
 import tkinter as tk
+import customtkinter as ctk
+
 from tkinter import *
 from tkinter import messagebox, ttk
 from PIL import Image, ImageTk
@@ -152,6 +154,42 @@ canvas.create_text(800, 150,
                    fill="White", font=("Arial", 40, "bold"),
                    justify="center", anchor="center")
 
+# Then add the frame to the canvas
+# Language Dropdown
+
+
+root1 = ctk.CTk()
+
+# ---------------- Background Image ------------------
+
+
+
+# ---------------- Language Dropdown Frame ------------------
+lang_frame = ctk.CTkFrame(root1, fg_color="#1e1e1e", corner_radius=10)
+lang_frame.place(x=1080, y=20)
+
+# Optional icon (Unicode or emoji)
+lang_label = ctk.CTkLabel(lang_frame, text="🌐", font=("Arial", 18))
+lang_label.pack(side="left", padx=(5, 0))
+
+lang_var = ctk.StringVar(value="English")
+lang_dropdown = ctk.CTkOptionMenu(
+    lang_frame,
+    values=["English", "Hindi", "Marathi"],
+    variable=lang_var,
+    fg_color="#333333",
+    button_color="#444444",
+    text_color="white",
+    width=120
+)
+lang_dropdown.pack(side="left", padx=(5, 10), pady=5)
+
+root1.mainloop()
+
+# Then add the frame to the canvas
+
+
+
 # Semi-transparent black box
 frame = Frame(top, bg='#000000', bd=0)
 frame.place(relx=0.5, rely=0.5, anchor='center', width=490, height=350)
@@ -291,3 +329,4 @@ update_list()
 
 # Start the application
 root.mainloop()
+root1.mainloop()
