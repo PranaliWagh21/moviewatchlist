@@ -116,78 +116,61 @@ def remove_search_placeholder(event=None):
         search_entry.delete(0, tk.END)
         search_entry.config(fg="black")
 
-# ---------------------
-# Placeholder clear for login fields
-# ---------------------
-def clear_email_placeholder(event):
-    if email_entry.get() == "Email or phone number":
-        email_entry.delete(0, tk.END)
-        email_entry.config(fg="white")
-
-def clear_password_placeholder(event):
-    if password_entry.get() == "Password":
-        password_entry.delete(0, tk.END)
-        password_entry.config(show="*", fg="white")
 
 # GUI setup
 root = tk.Tk()
-root.title("MovieMAX")
+top =Toplevel()
+top.title("LOGIN-📽MovieMAX")
 root.configure(bg="#0D1D28")
 
-# --- Login Window ---
-top = Toplevel()
-top.title("LOGIN - MovieMAX")
 
-bg_image = Image.open("bgimage.jpg")
+bg_image = Image.open("bgimage.jpg")  # <- Your background image
+
 bg_photo = ImageTk.PhotoImage(bg_image)
+    # सिर्फ एक ही Tk() instance है
+
 bg_label = Label(top, image=bg_photo)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
-top.bg_img = bg_photo
+
+img = Image.open("bgimage.jpg")
+
+top.bg_img = ImageTk.PhotoImage(img)
 
 canvas = tk.Canvas(top, width=1000, height=500)
 canvas.pack(fill="both", expand=True)
 canvas.create_image(0, 0, image=top.bg_img, anchor="nw")
+
 canvas.create_text(800, 150,
-                   text=" Welcome to MovieMAX !🎬 Unlimited movies ,\nTV shows and more🍿",
-                   fill="White", font=("Arial", 40, "bold"),
-                   justify="center", anchor="center")
+                       text=" Welcome to MovieMAX !🎬 Unlimited movies ,\nTV shows and more🍿",
+                       fill="White", font=("Arial", 40, "bold"),
+                       justify="center", anchor="center")
+
+
 
 # Semi-transparent black box
 frame = Frame(top, bg='#000000', bd=0)
 frame.place(relx=0.5, rely=0.5, anchor='center', width=490, height=350)
+frame.config(bg='#000000')
 
+# Title
 title = Label(frame, text="Sign In", fg="white", bg="#000000", font=("Arial", 24, "bold"))
 title.pack(pady=(20, 10))
 
-email_entry = Entry(frame, font=("Arial", 14), bg="#333333", fg="gray", insertbackground='white')
+# Email Entry
+email_entry = Entry(frame, font=("Arial", 14), bg="#333333", fg="white", insertbackground='white')
 email_entry.insert(0, "Email or phone number")
 email_entry.pack(pady=10, ipady=8, ipadx=5, fill="x", padx=40)
-email_entry.bind("<FocusIn>", clear_email_placeholder)
 
-password_entry = Entry(frame, font=("Arial", 14), bg="#333333", fg="gray", insertbackground='white')
+# Password Entry
+password_entry = Entry(frame, font=("Arial", 14), show="*", bg="#333333", fg="white", insertbackground='white')
 password_entry.insert(0, "Password")
 password_entry.pack(pady=10, ipady=8, ipadx=5, fill="x", padx=40)
-password_entry.bind("<FocusIn>", clear_password_placeholder)
 
-# --- Login Button Action ---
-def on_login():
-    email = email_entry.get().strip()
-    password = password_entry.get().strip()
-
-    if email == "" or email == "Email or phone number":
-        messagebox.showwarning("Input Error", "Please enter your email or phone number.")
-        return
-    if password == "" or password == "Password":
-        messagebox.showwarning("Input Error", "Please enter your password.")
-        return
-
-    top.destroy()
-    root.deiconify()
-
-sign_in_btn = Button(frame, text="Sign In", bg="red", fg="white", font=("Arial", 14, "bold"),
-                     relief="flat", command=on_login)
+# Sign In Button
+sign_in_btn = Button(frame, text="Sign In", bg="red", fg="white", font=("Arial", 14, "bold"), relief="flat")
 sign_in_btn.pack(pady=20, ipadx=5, ipady=8, fill="x", padx=40)
 
+# Checkbox and Help
 bottom_frame = Frame(frame, bg="#000000")
 bottom_frame.pack(pady=(0, 5), fill="x", padx=40)
 
@@ -198,45 +181,56 @@ remember.pack(side=LEFT)
 help_label = Label(bottom_frame, text="Need help?", fg="white", bg="#000000", font=("Arial", 10))
 help_label.pack(side=RIGHT)
 
+# Signup Info
 signup_label = Label(frame, text="New to MovieMAX? Sign up now", bg="#000000", fg="white", font=("Arial", 10))
 signup_label.pack(pady=(10, 5))
 
+# reCAPTCHA info (static text only)
 info_label = Label(frame, text="This page is protected by Google reCAPTCHA to ensure you're not a bot.",
                    bg="#000000", fg="gray", font=("Arial", 8), wraplength=300, justify="center")
 info_label.pack(pady=(5, 0))
 
-# --- Main App Content ---
-root.withdraw()  # Hide main app window initially
 
-image = Image.open("logo.jpg")
-resized = image.resize((150, 150))
+
+# Add to label
+image = Image.open("logo.jpg")  # or logo.png
+resized = image.resize((150, 150))  # optional resize
+
 logo = ImageTk.PhotoImage(resized)
 
-logo_label = tk.Label(root, image=logo, bd=0)
-logo_label.pack(side="top", anchor="w", padx=5, pady=5)
+logo_label = tk.Label(root, image=logo,bd=0)
+logo_label.pack(side="top", anchor="w", padx=5,pady=5)
+
+#w = Label(root, text='Unlimited movies,TV shows and more',font=60,fg="red",bg="#0D1D28")
+#w.pack(anchor="center",pady=10,padx=10)
+
+# Keep a reference to avoid garbage collection
 logo_label.image = logo
 
 sidebar = tk.Frame(root, bg="#111", width=200)
 sidebar.pack(side="left", fill="y")
 
+# Main frame
 main_frame = tk.Frame(root, bg="#0D1D28")
 main_frame.pack(side="right", fill="both", expand=True)
 
+# Sidebar buttons
 nav_buttons = [
-    ("Home", show_all),
-    ("Continue Watching", show_continue_watchlist),
-    ("Bollywood", lambda: show_category("Bollywood")),
-    ("Hollywood", lambda: show_category("Hindi")),
-    ("Series", lambda: show_category("Series")),
-    ("Anime", lambda: show_category("Anime")),
-    ("Suggestions", show_suggestions),
+    ("All", show_all),
+    ("Continue Watchlist", show_continue_watchlist),
     ("History", show_history),
+    ("Suggestions", show_suggestions),
+    ("Hindi Movies", lambda: show_category("Hindi")),
+    ("Anime", lambda: show_category("Anime")),
+    ("Series", lambda: show_category("Series")),
+    ("Bollywood", lambda: show_category("Bollywood")),
 ]
 
 for text, cmd in nav_buttons:
-    btn = tk.Button(sidebar, text=text, command=cmd, bg="#0D1D28", fg="white", relief="flat", anchor="w", padx=5)
+    btn = tk.Button(sidebar, text=text, command=cmd, bg="#222", fg="white", relief="flat", anchor="w", padx=10)
     btn.pack(fill="x", pady=2)
 
+# --- Input frame ---
 title_var = tk.StringVar()
 search_var = tk.StringVar()
 movies = load_movies()
@@ -251,6 +245,7 @@ title_entry.bind("<Return>", add_movie)
 
 tk.Button(input_frame, text="Add Movie", command=add_movie, bg="#920202", fg="white").pack(side="left", padx=(0,6))
 
+# --- Search bar ---
 search_frame = tk.Frame(main_frame, bg="#0D1D28")
 search_frame.pack(fill="x", padx=10, pady=(6, 4))
 
@@ -263,6 +258,7 @@ search_var.trace_add("write", update_list)
 
 tk.Button(search_frame, text="Clear", command=clear_search).pack(side="left")
 
+# --- Treeview ---
 tree = ttk.Treeview(main_frame, columns=("Title", "Category", "Watched"), show="headings", height=16)
 tree.heading("Title", text="Title")
 tree.column("Title", width=300)
@@ -272,18 +268,20 @@ tree.heading("Watched", text="Watched")
 tree.column("Watched", width=80)
 tree.pack(fill=tk.BOTH, expand=True, padx=10, pady=8)
 
+# --- Action buttons ---
 btn_frame = tk.Frame(main_frame, bg="#0D1D28")
 btn_frame.pack(pady=(0,10))
 tk.Button(btn_frame, text="Mark as Watched", command=mark_watched, bg="#920202", fg="white").pack(side="left", padx=6)
 tk.Button(btn_frame, text="Delete Movie", command=delete_movie, bg="#920202", fg="white").pack(side="left", padx=6)
 
+# Scrollbar
 h_scroll = tk.Scrollbar(main_frame, orient="horizontal", command=tree.xview)
 h_scroll.pack(side="bottom", fill="x")
 tree.config(xscrollcommand=h_scroll.set)
 
-# Show all movies on load
+# Show all initially
 show_all()
 update_list()
 
-# Start the application
 root.mainloop()
+top.mainloop()

@@ -223,10 +223,10 @@ main_frame = tk.Frame(root, bg="#0D1D28")
 main_frame.pack(side="right", fill="both", expand=True)
 
 nav_buttons = [
-    ("Home", show_all),
-    ("Continue Watching", show_continue_watchlist),
+    ("All", show_all),
+    ("Continue Watchlist", show_continue_watchlist),
     ("Bollywood", lambda: show_category("Bollywood")),
-    ("Hollywood", lambda: show_category("Hindi")),
+    ("Holywood", lambda: show_category("Hindi")),
     ("Series", lambda: show_category("Series")),
     ("Anime", lambda: show_category("Anime")),
     ("Suggestions", show_suggestions),
@@ -234,7 +234,7 @@ nav_buttons = [
 ]
 
 for text, cmd in nav_buttons:
-    btn = tk.Button(sidebar, text=text, command=cmd, bg="#0D1D28", fg="white", relief="flat", anchor="w", padx=5)
+    btn = tk.Button(sidebar, text=text, command=cmd, bg="#222", fg="white", relief="flat", anchor="w", padx=10)
     btn.pack(fill="x", pady=2)
 
 title_var = tk.StringVar()
