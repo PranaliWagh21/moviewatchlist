@@ -215,3 +215,5 @@ ctk.CTkButton(btn_frame, text="Delete Movie", command=delete_movie, fg_color="#9
 show_all()
 update_list()
 root.mainloop()
+
+
