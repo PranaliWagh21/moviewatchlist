@@ -2,6 +2,8 @@ import customtkinter as ctk
 from PIL import Image
 import json, os
 from tkinter import messagebox, ttk
+from PIL import Image, ImageTk
+
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("dark-blue")
@@ -114,9 +116,17 @@ def show_history():
 # --- Root Window ---
 root = ctk.CTk()
 root.title("MovieMAX")
-root.geometry("1100x700")
+root.geometry("500x500")
 root.configure(fg_color="#0D1D28")
 root.withdraw()
+image = Image.open("logo.jpg")
+resized = image.resize((150, 150))
+logo = ImageTk.PhotoImage(resized)
+
+# Create CTkLabel to display image (like transparent border)
+logo_label = ctk.CTkLabel(root, image=logo, text="", fg_color="transparent")
+logo_label.pack(side="top", anchor="w", padx=5, pady=5)
+logo_label.image = logo  # Keep reference
 
 # --- Login Window ---
 login_window = ctk.CTkToplevel()
@@ -127,6 +137,19 @@ bg_image = Image.open("bgimage.jpg")
 bg = ctk.CTkImage(bg_image, size=(2000, 800))
 bg_label = ctk.CTkLabel(login_window, image=bg, text="")
 bg_label.pack(fill="both", expand=True)
+
+welcome_label = ctk.CTkLabel(
+    login_window,
+    text="Welcome to MovieMAX !🎬 Unlimited movies ,\nTV shows and more🍿",
+    font=("Arial", 36, "bold"),
+    text_color="white",
+    bg_color="transparent",  # 
+    corner_radius=10,
+    width=900,
+    height=120,
+    justify="center"
+)
+welcome_label.place(relx=0.5, y=100, anchor="center")
 
 frame = ctk.CTkFrame(login_window, width=490, height=350, corner_radius=12, fg_color="#000000", bg_color="transparent")
 frame.place(relx=0.5, rely=0.5, anchor='center')
