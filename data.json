@@ -1,0 +1,52 @@
+[
+
+   {
+    "title": "LailaMajnu",
+    "type": "Movie",
+    "genres": ["Drama", "Romance"],
+    "year": 2018,
+    "language": "Hindi",
+    "rating": 8.8,
+    "poster": "lailamajnu.jpg",
+    "description": "The story revolves around two young lovers, Laila and Qais (Majnu), whose families oppose their relationship, leading to a passionate but ultimately doomed romance."
+
+   },
+  
+
+   {
+      
+    "title": "Rokstar",
+    "type": "Movie",
+    "genres": ["Drama", "Romance"],
+    "year": 2011,
+    "language": "HIndi",
+    "rating": 6.6,
+    "poster": "rokstar.jpg",
+    "description": "Rockstar is a 2011 Hindi romantic drama film about Janardhan Jakhar, a young man who aspires to be a rockstar and believes that pain and suffering are essential for musical creativity."
+   },
+
+   {
+   "title": "Andaaz apna apna",
+    "type": "Movie",
+    "genres": ["Action", "Comedy"],
+    "year": 1994,
+    "language": "Hindi",
+    "rating": 7.7,
+    "poster": "andazz.jpg",
+    "description": "Andaz Apna Apna is a 1994 Indian Hindi-language comedy film about two aimless young men, Amar and Prem, who both try to marry a wealthy heiress, Raveena, to get rich quick."
+   },
+   {
+   "title": "Heeramandi",
+    "type": "Web Series",
+    "genres": ["Drama"],
+    "year": 2024,
+    "language": "Hindi",
+    "rating": 8.9,
+    "poster": "heeramandi.jpg",
+    "description": "Heeramandi is a historical red-light district in Lahore, Pakistan, known for its grand brothels and the musical performances of courtesans."
+   }
+   
+]
+
+   
+
