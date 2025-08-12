@@ -43,9 +43,29 @@
     "language": "Hindi",
     "rating": 8.9,
     "poster": "heeramandi.jpg",
-    "description": "Heeramandi is a historical red-light district in Lahore, Pakistan, known for its grand brothels and the musical performances of courtesans."
+    "description": "a historical red-light district in Lahore, Pakistan, known for its grand brothels and the musical performances of courtesans."
+   },
+   {
+   "title": "Avtar",
+    "type": "Movie",
+    "genres": ["Action", "Romance"],
+    "year": 2009,
+    "language": "Hindi",
+    "rating": 8.9,
+    "poster": "avtar.jpg",
+    "description": "A science fiction film set in the 22nd century on Pandora, a lush moon of a gas giant."
+   },
+   {
+   "title": "Avengers",
+    "type": "Movie",
+    "genres": ["Action", "Romance"],
+    "year": 2012,
+    "language": "Hindi",
+    "rating": 9.9,
+    "poster": "avengers.jpg",
+    "description": "A team of superheroes from Marvel Comics, primarily featured in the Marvel Cinematic Universe (MCU)."
    }
-   
+
 ]
 
    
