@@ -64,9 +64,101 @@
     "rating": 9.9,
     "poster": "avengers.jpg",
     "description": "A team of superheroes from Marvel Comics, primarily featured in the Marvel Cinematic Universe (MCU)."
-   }
-
+   },
+   {
+   "title": "Wednesday",
+    "type": "Web Series",
+    "genres": ["Drama","Action","Suspence"],
+    "year": 2022,
+    "language": ["Hindi","English"],
+    "rating": 9.9,
+    "poster": "Wednesday.jpg",
+    "description": "Journey od Wednesday Addams, Tasked with mastering her psychic abilities, she confronts a series of town murders and a haunting family mystery from 25 years ago, all while managing new social dynamics."
+   },
+   {
+   "title": "Stranger Things",
+    "type": "Web Series",
+    "genres": ["Drama","Action","Suspence","Romance"],
+    "year": 2016,
+    "language": ["Hindi","English"],
+    "rating": 9.9,
+    "poster": "Stranger Things.jpg",
+    "description": "Stranger Things is a sci-fi horror web series set in the 1980s in the fictional town of Hawkins, Indiana, It follows a group of kids who uncover a secret government experiment that has opened a portal to a dangerous parallel dimension called the Upside Down."
+},
+{
+   "title": "Aarya",
+    "type": "Web Series",
+    "genres": ["Drama","Action","Suspence"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating": 7.9,
+    "poster": "Aarya.jpg",
+    "description": "Aarya is an Indian crime thriller web series created by Ram Madhvani, mother whose life turns upside down when her husband, involved in an illegal drug business, is mysteriously killed."
+},
+{
+   "title": "The Vampire Diaries",
+    "type": "Web Series",
+    "genres": ["Drama","Action","Suspence"],
+    "year": 2009,
+    "language": ["Hindi","English"],
+    "rating": 7.9,
+    "poster": "The Vampire Diaries.jpg",
+    "description": "The Vampire Diaries is a supernatural drama series set in the fictional town of Mystic Falls, revolving around the lives, loves, dangers, and disasters of its residents—many of whom are vampires, witches, and werewolves."
+},
+{
+   "title": "Money Heist",
+    "type": "Web Series",
+    "genres": ["Drama","Action","Suspence"],
+    "year": 2017,
+    "language": ["Hindi","English"],
+    "rating": 6.9,
+    "poster": "Money Heist.jpg",
+    "description": "Money Heist is a Spanish heist crime drama that follows a mysterious mastermind known as The Professor, who recruits eight skilled criminals to carry out two ambitious heists — one on the Royal Mint of Spain and another on the Bank of Spain."
+},
+{
+   "title": "Mismatched",
+    "type": "Web Series",
+    "genres": ["Drama","Action","Romance"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating": 9.9,
+    "poster": "Mismatched.jpg",
+    "description": "Mismatched, coming-of-age romantic drama about two young people from very different worlds who meet at a summer tech course, navigating friendship, love, and personal ambitions."
+},
+{
+   "title": "Squid Game",
+    "type": "Web Series",
+    "genres": ["Drama","Action","Violent"],
+    "year": 2021,
+    "language": ["Hindi","English"],
+    "rating": 7.9,
+    "poster": "Squid Game.jpg",
+    "description": "Squid Game is a South Korean survival thriller series where hundreds of financially struggling contestants compete in deadly versions of children’s games for a massive cash prize."
+},
+{
+   "title": "The Good Doctor",
+    "type": "Web Series",
+    "genres": ["Emotional","Action","Violent"],
+    "year": 2017,
+    "language": ["Hindi","English"],
+    "rating": 6.9,
+    "poster": "The Good Doctor.jpg",
+    "description": "A heartfelt medical drama about an autistic surgical resident with savant syndrome overcoming prejudice to showcase his medical brilliance.."
+},
+{
+   "title": "Sweet Home",
+    "type": "Web Series",
+    "genres": ["Scary","Action","Dark"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating": 5.9,
+    "poster": "Sweet Home.jpg",
+    "description": "A South Korean apocalyptic horror series where residents of an apartment complex fight to survive as people across the world mysteriously turn into monsters driven by their innermost desires.."
+}
 ]
+
+
+
 
    
 
