@@ -8,8 +8,8 @@
     "language": "Hindi",
     "rating": 8.8,
     "poster": "lailamajnu.jpg",
-    "description": "The story revolves around two young lovers, Laila and Qais (Majnu), whose families oppose their relationship, leading to a passionate but ultimately doomed romance."
-
+    "description": "The story revolves around two young lovers, Laila and Qais (Majnu), whose families oppose their relationship, leading to a passionate but ultimately doomed romance.",
+    "trailer_url": "https://youtu.be/gKMB06ACiEc?feature=shared"
    },
   
 
@@ -22,7 +22,9 @@
     "language": "HIndi",
     "rating": 6.6,
     "poster": "rokstar.jpg",
-    "description": "Rockstar is a 2011 Hindi romantic drama film about Janardhan Jakhar, a young man who aspires to be a rockstar and believes that pain and suffering are essential for musical creativity."
+    "description": "Rockstar is a 2011 Hindi romantic drama film about Janardhan Jakhar, a young man who aspires to be a rockstar and believes that pain and suffering are essential for musical creativity.",
+     "trailer_url": "https://youtu.be/F01zP0lvizM?feature=shared"
+   
    },
 
    {
@@ -33,7 +35,8 @@
     "language": "Hindi",
     "rating": 7.7,
     "poster": "andazz.jpg",
-    "description": "Andaz Apna Apna is a 1994 Indian Hindi-language comedy film about two aimless young men, Amar and Prem, who both try to marry a wealthy heiress, Raveena, to get rich quick."
+    "description": "Andaz Apna Apna is a 1994 Indian Hindi-language comedy film about two aimless young men, Amar and Prem, who both try to marry a wealthy heiress, Raveena, to get rich quick.",
+    "trailer_url": "https://youtu.be/A2SrzL0p70w?feature=shared"
    },
    {
    "title": "Heeramandi",
@@ -43,7 +46,8 @@
     "language": "Hindi",
     "rating": 8.9,
     "poster": "heeramandi.jpg",
-    "description": "a historical red-light district in Lahore, Pakistan, known for its grand brothels and the musical performances of courtesans."
+    "description": "a historical red-light district in Lahore, Pakistan, known for its grand brothels and the musical performances of courtesans.",
+    "trailer_url": "https://youtu.be/9vOZu9C6hrE?feature=shared"
    },
    {
    "title": "Avtar",
@@ -154,8 +158,89 @@
     "rating": 5.9,
     "poster": "Sweet Home.jpg",
     "description": "A South Korean apocalyptic horror series where residents of an apartment complex fight to survive as people across the world mysteriously turn into monsters driven by their innermost desires.."
-}
+},
+{
+   "title": "Ashiqui",
+    "type": "Movie",
+    "genres": "Romance",
+    "year": 1990,
+    "language": "Hindi",
+    "rating":8.0,
+    "poster": "Ashiqui.jpg",
+    "description":"musical romance film released in 2013, starring Aditya Roy Kapur and Shraddha Kapoor. The movie tells the story of Rahul, a successful but alcoholic singer, who mentors and falls in love with Arohi, a small-town singer, and helps her rise to fame."
+   },
+   {
+   "title": "Anand",
+    "type": "Movie",
+    "genres": "Drama",
+    "year": 1971,
+    "language": "Hindi",
+    "rating": 5.9,
+    "poster": "Anand.jpg",
+    "description": "Explores themes of life, death, friendship, and the importance of living life to the fullest, even in the face of adversity. "
+   },
+   {
+   "title": "AgneePath",
+    "type": "Movie",
+    "genres": ["Action","Comedy"],
+    "year": 1965,
+    "language": "Hindi",
+    "rating":7.0,
+    "poster": "Agneepath.jpg",
+    "description":"Agneepath is a story of revenge, centered around Vijay Chauhan, whose father is lynched by a gangster, Kancha Cheena, after being framed"
+   },
+   {
+   "title": "Badlapur",
+    "type": "Movie",
+    "genres": ["Romance","Suspence"],
+    "year": 2015,
+    "language": "Hindi",
+    "rating":7.8,
+    "poster": "Badlapur.jpg",
+    "description":"Badlapur is a Hindi crime thriller where Raghu (Varun Dhawan), a man whose wife and son are killed during a bank robbery, seeks revenge against the perpetrators"
+   },
+   {
+   "title": "Bhool Bhulaiya",
+    "type": "Movie",
+    "genres": ["Horror","Comedy"],
+    "year": 2007,
+    "language": "Hindi",
+    "rating":9.0,
+    "poster": "Bhool Bhulaiya.jpg",
+    "description":"Bhool Bhulaiyaa is a Indian Hindi-language psychological horror comedy film about a couple who move into their ancestral home, ignoring warnings that it is haunted"
+   },
+   {
+   "title": "Bahubali",
+    "type": "Movie",
+    "genres": ["Action","Romance"],
+    "year": 2019,
+    "language": "Hindi",
+    "rating":8.0,
+    "poster": "Bahubali.jpg",
+    "description":"tells the story of Shivudu, a man raised in a tribal village who discovers his past and destiny as he embarks on a journey to rescue Devasena from the tyrannical King Bhallaladeva"
+   },
+   {
+   "title": "Barfi",
+    "type": "Movie",
+    "genres": ["Drama","Romance"],
+    "year": 2012,
+    "language": "Hindi",
+    "rating":6.4,
+    "poster": "Barfi.jpg",
+    "description":"a 2012 Indian romantic comedy-drama film following the story of Barfi, a deaf and mute man, and his relationships with two women, Shruti and Jhilmil. "
+   },
+   {
+   "title": "Bajrangi BhaiJaan",
+    "type": "Movie",
+    "genres": ["Action","Comedy"],
+    "year": 2012,
+    "language": "Hindi",
+    "rating":8.4,
+    "poster": "BhagrangiBhaijaan.jpg",
+    "description":"Bajrangi Bhaijaan will count as Salman Khan''s best movie. Magnum opus in every way..it is a simple movie with an extraordinary script. A movie about an Indian who helps a Pakistani girl to go back to her country so she can be reunited with her parents. It teaches us that humanity is far above religion."
+   }
 ]
+
 
 
 

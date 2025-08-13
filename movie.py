@@ -267,7 +267,7 @@ class MovieApp(ctk.CTk):
             trailer_win.grab_set()  # Modal window
 
             # Left frame for poster image
-            left_frame = ctk.CTkFrame(trailer_win, width=350, height=480, fg_color="#121212")
+            left_frame = ctk.CTkFrame(trailer_win, width=400, height=500, fg_color="#121212")
             left_frame.pack(side="left", padx=20, pady=20)
             left_frame.pack_propagate(False)
 
