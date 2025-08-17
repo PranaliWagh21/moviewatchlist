@@ -46,6 +46,7 @@ class MovieApp(ctk.CTk):
         self.data = load_data()
         self.filtered_data = self.data.copy()
         self.image_refs = []
+        
 
         self.current_filter = None
 
@@ -60,6 +61,8 @@ class MovieApp(ctk.CTk):
             ("🏠 Home", self.show_home),
             ("🎬 Movies", self.show_movies_only),
             ("📺 Web Series", self.show_series_only),
+         
+
         ]
         for text, cmd in nav_buttons:
             btn = ctk.CTkButton(navbar, text=text, command=cmd,
@@ -67,6 +70,8 @@ class MovieApp(ctk.CTk):
                                 fg_color="#1A1F23", hover_color="#FF3333",
                                 text_color="white", font=("Arial", 14, "bold"))
             btn.pack(side="left", padx=12, pady=8)
+
+         
 
         search_frame = ctk.CTkFrame(self, height=60, fg_color="#121212")
         search_frame.pack(fill="x", padx=20, pady=(10,0))

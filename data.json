@@ -1,4 +1,4 @@
-[
+ [
 
    {
     "title": "LailaMajnu",
@@ -77,7 +77,7 @@
     "language": ["Hindi","English"],
     "rating": 9.9,
     "poster": "Wednesday.jpg",
-    "description": "Journey od Wednesday Addams, Tasked with mastering her psychic abilities, she confronts a series of town murders and a haunting family mystery from 25 years ago, all while managing new social dynamics."
+    "description": "Journey of Wednesday Addams, Tasked with mastering her psychic abilities, she confronts a series of town murders and a haunting family mystery from 25 years ago, all while managing new social dynamics."
    },
    {
    "title": "Stranger Things",
@@ -238,12 +238,375 @@
     "rating":8.4,
     "poster": "BhagrangiBhaijaan.jpg",
     "description":"Bajrangi Bhaijaan will count as Salman Khan''s best movie. Magnum opus in every way..it is a simple movie with an extraordinary script. A movie about an Indian who helps a Pakistani girl to go back to her country so she can be reunited with her parents. It teaches us that humanity is far above religion."
-   }
+   },
+   {
+   "title": "Breaking Bad",
+    "type": "Web Series",
+    "genres": ["Action","Crime","Thriller"],
+    "year": 2008,
+    "language": ["Hindi","English"],
+    "rating":6.4,
+    "poster": "Breaking Bad.jpg",
+    "description":"A high school chemistry teacher, Walter White, turns to manufacturing methamphetamine after a terminal cancer diagnosis, teaming up with former student Jesse Pinkman. The series explores morality, crime, and transformation."
+   },
+   {
+   "title": "Game of Thrones",
+    "type": "Web Series",
+    "genres": ["Action","Fantasy","Adventure","Drama"],
+    "year": 2011,
+    "language": ["Hindi","English"],
+    "rating":8.4,
+    "poster": "Games of Thrones.jpg",
+    "description":"An epic fantasy drama based on George R.R. Martin’s A Song of Ice and Fire novels, following the power struggles among noble families for control of the Iron Throne in the Seven Kingdoms of Westeros."
+   },
+   {
+   "title": "Mirzapur",
+    "type": "Web Series",
+    "genres": ["Action","Crime","Thriller","Drama"],
+    "year": 2018,
+    "language": ["Hindi","English"],
+    "rating":6.9,
+    "poster": "Mirzapur.jpg",
+    "description":"An Indian crime thriller web series set in the lawless city of Mirzapur, Uttar Pradesh, revolving around power, politics, crime, and the mafia underworld. It follows the rise of local dons and the impact of violence on families."
+   },
+   {
+   "title": "The Boys",
+    "type": "Web Series",
+    "genres": ["Action","Crime","Thriller","Drama"],
+    "year": 2019,
+    "language": ["Hindi","English"],
+    "rating":8.4,
+    "poster": "The Boys.jpg",
+    "description":"A dark, satirical superhero series where a group of vigilantes takes on corrupt, power-abusing superheroes backed by a powerful corporation. Known for its gritty violence, dark humor, and political commentary."
+   },
+   {
+   "title": "Daredevil",
+    "type": "Web Series",
+    "genres": ["Action","Crime","Thriller","Drama","Superhero"],
+    "year": 2015,
+    "language": ["Hindi","English"],
+    "rating":8.9,
+    "poster": "Daredevil.jpg",
+    "description":"A gritty Marvel superhero series following blind lawyer Matt Murdock, who uses his heightened senses to fight crime as Daredevil in Hell’s Kitchen, New York."
+   },
+   {
+   "title": "The Wire",
+    "type": "Web Series",
+    "genres": ["Action","Crime","Thriller","Political fiction"],
+    "year": 2002,
+    "language": ["Hindi","English"],
+    "rating":8.4,
+    "poster": "The Wire.jpg",
+    "description":"The show explores the city of Baltimore through the perspectives of law enforcement, drug dealers, politicians, journalists, and citizens, offering a gritty and realistic portrayal of urban life."
+   },
+   {
+   "title": "Mad Men",
+    "type": "Web Series",
+    "genres": ["Action","Crime","Political Drama","Historical Fiction"],
+    "year": 2007,
+    "language": ["Hindi","English"],
+    "rating":5.4,
+    "poster": "Mad Men.jpg",
+    "description":"A critically acclaimed drama set in 1960s New York, following the lives of advertising executives at Sterling Cooper, exploring themes of ambition, identity, and societal change."
+   },
+   {
+   "title": "Fleabag",
+    "type": "Web Series",
+    "genres": ["Drama","Comedy","Romance"],
+    "year": 2016,
+    "language": ["Hindi","English"],
+    "rating":7.4,
+    "poster": "Fleabag.jpg",
+    "description":"A dark comedy-drama following a witty but emotionally troubled woman navigating love, loss, family, and self-destruction while frequently breaking the fourth wall to speak directly to the audience."
+   },
+   {
+   "title": "The Leftovers",
+    "type": "Web Series",
+    "genres": ["Drama","Mystery","Fantasy","Supernatural"],
+    "year": 2014,
+    "language": ["Hindi","English"],
+    "rating":5.9,
+    "poster": "The Leftovers.jpg",
+    "description":"A mysterious and emotional drama following the lives of people left behind after 2% of the world’s population inexplicably vanishes, exploring grief, faith, and the search for meaning."
+   },
+   {
+   "title": "The Americans",
+    "type": "Web Series",
+    "genres": ["Drama","Mystery","Period Drama","Spy Thriller"],
+    "year": 2014,
+    "language": ["Hindi","English"],
+    "rating":7.9,
+    "poster": "The Americans.jpg",
+    "description":"An American period spy thriller television series set during the Cold War, following two Soviet KGB officers posing as a married couple in suburban Washington, D.C., while secretly conducting espionage."
+   },
+   {
+   "title": "The Office (UK)",
+    "type": "Web Series",
+    "genres": ["Mockumentary","Comedy","Workplace","Sitcom"],
+    "year": 2001,
+    "language": ["Hindi","English"],
+    "rating":5.9,
+    "poster": "The Office (UK).jpg",
+    "description":"A mockumentary-style sitcom following the mundane yet hilariously awkward daily operations at the Wernham Hogg paper company, led by the cringeworthy and self-absorbed manager David Brent."
+   },
+   {
+   "title": "Succession",
+    "type": "Web Series",
+    "genres": ["Satire","Comedy","Dark"],
+    "year": 2018,
+    "language": ["Hindi","English"],
+    "rating":7.6,
+    "poster": "Succession.jpg",
+    "description":"A satirical drama about the wealthy, dysfunctional Roy family, owners of a global media empire, who engage in power struggles as the patriarch’s health declines."
+   },
+   {
+   "title": "Tabbar",
+    "type": "Web Series",
+    "genres": ["Thriller","Comedy","Drama","Family"],
+    "year": 2021,
+    "language": ["Hindi","English"],
+    "rating":4.6,
+    "poster": "Tabbar.jpg",
+    "description":"Tabbar is a 2021 Indian Punjabi-language crime thriller drama web series about a middle-class retired policeman whose family becomes entangled in a web of lies, violence, and moral dilemmas after an unexpected crime disrupts their peaceful life."
+   },
+   {
+   "title": "Maharani",
+    "type": "Web Series",
+    "genres": ["Political Drama","Political fiction","Drama"],
+    "year": 2021,
+    "language": ["Hindi","English"],
+    "rating":4.6,
+    "poster": "Maharani.jpg",
+    "description":"The story begins when Chief Minister Bheema Bharti survives an assassination attempt and, in a power play, appoints his homemaker wife, Rani Bharti (Huma Qureshi), as his successor."
+   },
+   {
+   "title": "Rudra: The Edge of Darkness",
+    "type": "Web Series",
+    "genres": ["Psychological thriller","Serial drama ","Crime"],
+    "year": 2022,
+    "language": ["Hindi","English"],
+    "rating":7.6,
+    "poster": "Rudra The Edge of Darkness.jpg",
+    "description":"It follows DCP Rudraveer Pratap Singh (Rudra), a brilliant detective in Mumbai's Special Crimes Unit, as he dives into the minds of highly intelligent—and often disturbed—criminals."
+   },
+   {
+   "title": "Bard of Blood",
+    "type": "Web Series",
+    "genres": ["Espionage","Action","Drama"],
+    "year": 2019,
+    "language": ["Hindi","English"],
+    "rating":8.6,
+    "poster": "Bard of Blood.jpg",
+    "description":"An Indian spy thriller where former RAW agent Kabir Anand is pulled back into the world of espionage to rescue Indian agents captured in Balochistan, uncovering dangerous political conspiracies along the way."
+   },
+   {
+   "title": "Guilty Minds",
+    "type": "Web Series",
+    "genres": ["Courtroom thriller","Crime","Legal Drama"],
+    "year": 2022,
+    "language": ["Hindi","English"],
+    "rating":6.6,
+    "poster": "Guilty Minds.jpg",
+    "description":"Guilty Minds is an Indian legal drama web series that follows two close friends and lawyers — one who fights for idealistic causes and the other who works for a high-profile law firm — as they handle complex legal cases and navigate personal conflicts."
+   },
+   {
+   "title": "The Great Indian Murder",
+    "type": "Web Series",
+    "genres": ["Mystery","Crime","Drama"],
+    "year": 2022,
+    "language": ["Hindi","English"],
+    "rating":7.5,
+    "poster": "The Great Indian Murder.jpg",
+    "description":"A Hindi-language crime mystery thriller following an investigating officer and a CBI officer as they unravel the complex murder of an industrialist, exposing hidden motives, political conspiracies, and buried secrets."
+   },
+   {
+   "title": "Masaba Masaba",
+    "type": "Web Series",
+    "genres": ["Comedy","Biographical","Drama"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating":8.5,
+    "poster": "Masaba Masaba.jpg",
+    "description":"Masaba navigating post-divorce dilemmas, career challenges, and societal scrutiny, while Neena offers wisdom and balance from her own acting journey."
+   },
+   {
+   "title": "Mumbai Diaries",
+    "type": "Web Series",
+    "genres": ["Medical Drama","Thriller","Drama"],
+    "year": 2021,
+    "language": ["Hindi","English"],
+    "rating":5.5,
+    "poster": "Mumbai Diaries.jpg",
+    "description":"The first season centers around the doctors, nurses, and first responders at Bombay General Hospital as they grapple with the harrowing night of the 2008 Mumbai terror attacks."
+   },
+   {
+   "title": "Sacred Games",
+    "type": "Web Series",
+    "genres": ["Mystery","Thriller","Drama","Crime"],
+    "year": 2018,
+    "language": ["Hindi","English"],
+    "rating":4.5,
+    "poster": "Sacred Games.jpg",
+    "description":"A gritty Indian crime thriller where a Mumbai police officer, Sartaj Singh, receives a mysterious tip from gangster Ganesh Gaitonde, leading him into a dark web of political corruption, underworld crime, and a looming threat to the city."
+   },
+   {
+   "title": "Yeh Meri Family",
+    "type": "Web Series",
+    "genres": ["Family","Coming-of-Age","Drama","Comedy"],
+    "year": 2018,
+    "language": ["Hindi","English"],
+    "rating":7.5,
+    "poster": "Yeh Meri Family.jpg",
+    "description":"A heartwarming Indian web series set in the 1990s, following 12-year-old Harshu Gupta as he navigates school, friendships, family drama, and the ups and downs of growing up in a middle-class household. The show blends nostalgia with humor and emotional moments."
+   },
+   {
+   "title": "Made in Heaven",
+    "type": "Web Series",
+    "genres": ["Romance","Social Commentary","Drama"],
+    "year": 2019,
+    "language": ["Hindi","English"],
+    "rating":8.3,
+    "poster": "Made in Heaven.jpg",
+    "description":"Made in Heaven is an Indian drama web series that follows two wedding planners in Delhi as they navigate the complexities of lavish Indian weddings, while dealing with personal struggles, social issues, and moral dilemmas."
+   },
+   {
+   "title": "Little Things",
+    "type": "Web Series",
+    "genres": ["Romance","Slice of Life","Drama"],
+    "year": 2016,
+    "language": ["Hindi","English"],
+    "rating":6.3,
+    "poster": "Little Things.jpg",
+    "description":"An Indian romantic drama web series that follows the everyday life of a young couple, Dhruv and Kavya, exploring love, relationships, and personal growth through small, relatable moments."
+   },
+   {
+   "title": "Delhi Crime",
+    "type": "Web Series",
+    "genres": ["Thriller","Mystery","Drama","Crime"],
+    "year": 2019,
+    "language": ["Hindi","English"],
+    "rating":7.3,
+    "poster": "Delhi Crime.jpg",
+    "description":"A gripping Indian crime drama series based on real-life investigations by the Delhi Police, particularly inspired by the 2012 Delhi gang rape case in Season 1. It portrays the intense challenges and emotional toll faced by the officers handling such brutal crimes."
+   },
+   {
+   "title": "Criminal Justice",
+    "type": "Web Series",
+    "genres": ["Thriller","Mystery","Drama","Crime"],
+    "year": 2019,
+    "language": ["Hindi","English"],
+    "rating":8.3,
+    "poster": "Criminal Justice.jpg",
+    "description":"Made in Heaven is an Indian drama web series that follows two wedding planners in Delhi as they navigate the complexities of lavish Indian weddings, while dealing with personal struggles, social issues, and moral dilemmas."
+   },
+   {
+   "title": "Kota Factory",
+    "type": "Web Series",
+    "genres": ["Indian","Comedy","Drama"],
+    "year": 2019,
+    "language": ["Hindi","English"],
+    "rating":6.3,
+    "poster": "Kota Factory.jpg",
+    "description":"The storyline centers on Vaibhav, a 16–17-year-old who relocates from Itarsi to Kota, Rajasthan—India’s famous coaching hub."
+   },
+   {
+   "title": "Inside Edge",
+    "type": "Web Series",
+    "genres": ["Thriller","Period Drama","Crime"],
+    "year": 2017,
+    "language": ["Hindi","English"],
+    "rating":6.7,
+    "poster": "Inside Edge.jpg",
+    "description":"Inside Edge is an Indian sports-drama web series that blends cricket, politics, and entertainment, showing the dark underbelly of a fictional T20 cricket league, including match-fixing, power struggles, and behind-the-scenes drama."
+   },
+   {
+   "title": "Paatal Lok",
+    "type": "Web Series",
+    "genres": ["Crime","Thriller","Drama","Mystery"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating":5.3,
+    "poster": "Paatal Lok.jpg",
+    "description":"A gritty Indian crime thriller where a disillusioned Delhi cop gets assigned a high-profile case involving the attempted murder of a journalist, uncovering dark secrets of politics, crime, and society along the way."
+   },
+   {
+   "title": "Panchayat",
+    "type": "Web Series",
+    "genres": ["Slice of Life","Comedy","Drama"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating":8.3,
+    "poster": "Panchayat.jpg",
+    "description":"The story of Abhishek Tripathi, an engineering graduate who reluctantly takes up a job as a secretary in a remote village panchayat office due to lack of better job opportunities."
+   },
+   {
+   "title": "Special OPS",
+    "type": "Web Series",
+    "genres": ["Thriller","Action","Drama","Crime"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating":5.3,
+    "poster": "Special OPS.jpg",
+    "description":"The story follows Himmat Singh, a RAW officer, who believes that a single terrorist mastermind is behind several major attacks in India over the past two decades."
+   },
+   {
+   "title": "Family Man",
+    "type": "Web Series",
+    "genres": ["Thriller","Action","Drama","Crime"],
+    "year": 2019,
+    "language": ["Hindi","English"],
+    "rating":8.3,
+    "poster": "Family Man.jpg",
+    "description":"A middle-class man secretly working as an intelligence officer for the National Investigation Agency (NIA). The story balances his dangerous missions with the challenges of managing his family life."
+   },
+   {
+   "title": "Scam 1992",
+    "type": "Web Series",
+    "genres": ["Financial Thriller","Biographical","Drama"],
+    "year": 2020,
+    "language": ["Hindi","English"],
+    "rating":8.8,
+    "poster": "Scam 1992.jpg",
+    "description":"A gripping Indian Hindi-language biographical financial thriller, Scam 1992 dramatizes the meteoric rise and dramatic fall of stockbroker Harshad Mehta during the early 1990s."
+   },
+   {
+   "title": "Rocket Boys",
+    "type": "Web Series",
+    "genres": ["Science & Technology","History","Period Drama"],
+    "year": 2022,
+    "language": ["Hindi","English"],
+    "rating":5.8,
+    "poster": "Rocket Boys.jpg",
+    "description":"Rocket Boys is an Indian biographical drama web series that tells the story of two visionary scientists, Dr. Homi J. Bhabha and Dr. Vikram Sarabhai."
+   },
+   {
+   "title": "Class",
+    "type": "Web Series",
+    "genres": ["Crime","Mystery","Suspence"],
+    "year": 2023,
+    "language": ["Hindi","English"],
+    "rating":7.8,
+    "poster": "Class.jpg",
+    "description":" It follows three students from poor backgrounds who join a prestigious elite school in Delhi on scholarship. Their clash with wealthy classmates leads to friendships, rivalries, forbidden relationships, and eventually a shocking crime that exposes deep social divides."
+   },
+   {
+   "title": "Class",
+    "type": "Web Series",
+    "genres": ["Comedy","Drama","Family","Teen Sitcom"],
+    "year": 2007,
+    "language": ["Hindi","English"],
+    "rating":6.8,
+    "poster": "Class.jpg",
+    "description":" The series shows their fun adventures, creative skits, and the ups and downs of teenage life, often mixed with quirky humor from Carly’s older brother Spencer."
+   },
+   {
+   "title": "Breath",
+    "type": "Web Series",
+    "genres": ["Science Fiction","Drama","Thriller","Post-Apocalyptic"],
+    "year": 2025,
+    "language": ["Hindi","English"],
+    "rating":6.8,
+    "poster": "Breath.jpg",
+    "description":" The story follows survivors struggling to endure in a devastated world, facing dangers not only from the environment but also from desperate human conflicts."
+}
 ]
-
-
-
-
-
-   
-
