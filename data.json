@@ -1,4 +1,4 @@
- [
+[
 
    {
     "title": "LailaMajnu",
@@ -590,13 +590,13 @@
     "description":" It follows three students from poor backgrounds who join a prestigious elite school in Delhi on scholarship. Their clash with wealthy classmates leads to friendships, rivalries, forbidden relationships, and eventually a shocking crime that exposes deep social divides."
    },
    {
-   "title": "Class",
+   "title": "ICarly",
     "type": "Web Series",
     "genres": ["Comedy","Drama","Family","Teen Sitcom"],
     "year": 2007,
     "language": ["Hindi","English"],
     "rating":6.8,
-    "poster": "Class.jpg",
+    "poster": "ICarly.jpg",
     "description":" The series shows their fun adventures, creative skits, and the ups and downs of teenage life, often mixed with quirky humor from Carly’s older brother Spencer."
    },
    {
@@ -608,5 +608,285 @@
     "rating":6.8,
     "poster": "Breath.jpg",
     "description":" The story follows survivors struggling to endure in a devastated world, facing dangers not only from the environment but also from desperate human conflicts."
+    },
+    {
+   "title": "Andhadhun",
+    "type": "Movie",
+    "genres": ["Thriller","Dark Comedy","Mystery","Drama"],
+    "year": 2018,
+    "language": "Hindi",
+    "rating":6.4,
+    "poster": "Andhadhun.jpg",
+    "description":"A blind pianist who becomes entangled in a series of mysterious events after witnessing a murder. The film blends suspense, humor, and unexpected twists."
+    },
+    {
+   "title": "Article 15",
+    "type": "Movie",
+    "genres": ["Thriller","Crime","Mystery","Drama"],
+    "year": 2019,
+    "language": "Hindi",
+    "rating":7.4,
+    "poster": "Article 15.jpg",
+    "description":"A hard-hitting Bollywood crime drama inspired by true events, where a young IPS officer (played by Ayushmann Khurrana) investigates caste-based discrimination and atrocities in rural India, exposing deep-rooted social injustices."
+   },
+   {
+   "title": "Ae Dil Hai Mushkil",
+    "type": "Movie",
+    "genres": ["Romance","Comedy","Musical","Melodrama"],
+    "year": 2016,
+    "language": "Hindi",
+    "rating":9.4,
+    "poster": "Ae Dil Hai Mushkil.jpg",
+    "description":"The film explores the complexities of love, friendship, and heartbreak. It follows the story of Ayan (Ranbir Kapoor), Alizeh (Anushka Sharma), and Saba (Aishwarya Rai Bachchan), as they navigate unrequited love, deep bonds, and emotional struggles."
+   },
+   {
+   "title": "Airlift",
+    "type": "Movie",
+    "genres": ["Historical Drama","Thriller","Biographical","War"],
+    "year": 2016,
+    "language": "Hindi",
+    "rating":5.7,
+    "poster": "Airlift.jpg",
+    "description":"It follows Ranjit Katyal (played by Akshay Kumar), a wealthy Indian businessman in Kuwait, who leads the massive evacuation of Indians during the 1990 Iraq–Kuwait war, making it the largest civil evacuation in history."
+   },
+   {
+   "title": "Aashiqui 2",
+    "type": "Movie",
+    "genres": ["Romance","Musical","Drama","Melodrama"],
+    "year": 2013,
+    "language": "Hindi",
+    "rating":8.7,
+    "poster": "Aashiqui 2.jpg",
+    "description":"It tells the story of Rahul, a successful but troubled singer battling alcoholism, who falls in love with Aarohi, a small-town girl with a melodious voice. Rahul helps her achieve her dreams of becoming a singing star, but his own self-destructive habits threaten their love."
+   },
+   {
+   "title": "Band Baaja Baaraat",
+    "type": "Movie",
+    "genres": ["Romance","Comedy","Drama","Musical"],
+    "year": 2010,
+    "language": "Hindi",
+    "rating":5.7,
+    "poster": "Band Baaja Baaraat.jpg",
+    "description":"Shruti and Bittoo, who start a wedding planning business in Delhi. Their professional partnership faces challenges when love complicates their friendship and work."
+   },
+   {
+   "title": "Bhoot",
+    "type": "Movie",
+    "genres": ["Horror","Thriller","Mystery"],
+    "year": 2020,
+    "language": "Hindi",
+    "rating":6.7,
+    "poster": "Bhoot.jpg",
+    "description":"Bollywood horror thriller film where a shipping officer (played by Vicky Kaushal) investigates a mysterious abandoned ship Sea Bird, that suddenly appears on the Mumbai coast. As he explores, he encounters terrifying supernatural occurrences linked to the ships dark past."
+   },
+   {
+   "title": "Chak De! India",
+    "type": "Movie",
+    "genres": ["Sports Drama","Drama","Inspirational"],
+    "year": 2007,
+    "language": "Hindi",
+    "rating":7.7,
+    "poster": "Chak De! India.jpg",
+    "description":"Chak De! India is a Bollywood sports drama film about Kabir Khan, a former hockey player who redeems his tarnished reputation by coaching the Indian women’s hockey team."
+   },
+   {
+   "title": "Chhichhore",
+    "type": "Movie",
+    "genres": ["Comedy","Drama","Romance"],
+    "year": 2019,
+    "language": "Hindi",
+    "rating":6.6,
+    "poster": "Chhichhore.jpg",
+    "description":" Chhichhore is a heartwarming Bollywood dramedy about a group of college friends who reunite years later after a tragic incident. Through flashbacks, it highlights the carefree hostel life, deep friendships, love, and the message that failure is not the end of life."
+   },
+   {
+   "title": "Cocktail",
+    "type": "Movie",
+    "genres": ["Comedy","Drama","Romance"],
+    "year": 2012,
+    "language": "Hindi",
+    "rating":7.6,
+    "poster": "Cocktail.jpg",
+    "description":"Cocktail is a romantic comedy-drama about love, friendship, and complicated relationships. The story follows Gautam, Meera, and Veronica, three friends with very different personalities, whose lives take unexpected turns when love and emotions blur the lines of friendship."
+   },
+   {
+   "title": "Chennai Express",
+    "type": "Movie",
+    "genres": ["Comedy","Drama","Romance","Action","Adventure"],
+    "year": 2013,
+    "language": "Hindi",
+    "rating":8.5,
+    "poster": "Chennai Express.jpg",
+    "description":"The story follows a man who boards the wrong train while heading to Rameswaram and ends up on an unexpected adventure through South India. Along the way, he meets a woman trying to escape from her powerful father, leading to a journey filled with comedy, action, and romance."
+   },
+   {
+   "title": "Commando",
+    "type": "Movie",
+    "genres": ["Action","Drama","Thriller"],
+    "year": 2013,
+    "language": "Hindi",
+    "rating":6.5,
+    "poster": "Commando.jpg",
+    "description":"A One Man Army is an Indian action thriller film that follows Karanveer Dogra, a highly trained commando, who escapes from captivity and takes on a corrupt politician’s men to protect a young woman fighting against injustice."
+   },
+   {
+   "title": "Coolie No. 1",
+    "type": "Movie",
+    "genres": ["Comedy","Drama","Romance"],
+    "year": 2020,
+    "language": "Hindi",
+    "rating":6.5,
+    "poster": "Coolie No. 1.jpg",
+    "description":"A modern remake of the 1995 classic, directed again by David Dhawan, starring Varun Dhawan and Sara Ali Khan. The story remains similar with a comic take on mistaken identities and love."
+   },
+   {
+   "title": "Dangal",
+    "type": "Movie",
+    "genres": ["Biographical","Drama","Sports Drama"],
+    "year": 2016,
+    "language": "Hindi",
+    "rating":7.5,
+    "poster": "Dangal.jpg",
+    "description":"Dangal is a biographical sports drama based on the real-life story of wrestler Mahavir Singh Phogat and his daughters Geeta Phogat and Babita Kumari, who went on to win medals for India in international wrestling competitions."
+   },
+   {
+   "title": "Devdas",
+    "type": "Movie",
+    "genres": ["Romantic Drama","Musical","Tragedy"],
+    "year": 2002,
+    "language": "Hindi",
+    "rating":9.5,
+    "poster": "Devdas.jpg",
+    "description":"The story follows Devdas Mukherjee, a wealthy young man who returns from London and rekindles his childhood love for Paro (Parvati). However, societal pressures and misunderstandings separate them, leading Devdas into a spiral of heartbreak, self-destruction, and alcoholism."
+   },
+   {
+   "title": "Dhamaal",
+    "type": "Movie",
+    "genres": ["Comedy","Drama","Adventure"],
+    "year": 2007,
+    "language": "Hindi",
+    "rating":8.2,
+    "poster": "Dhamaal.jpg",
+    "description":"Dhamaal is a Bollywood comedy film directed by Indra Kumar. The story follows four lazy and jobless friends who accidentally learn about a hidden treasure. Their hilarious and chaotic journey to find the treasure leads to endless misadventures, slapstick humor, and laugh-out-loud moments."
+    },
+    {
+   "title": "Ek Villain",
+    "type": "Movie",
+    "genres": ["Action","Romance","Drama","Thriller"],
+    "year": 2014,
+    "language": "Hindi",
+    "rating":7.2,
+    "poster": "Ek Villain.jpg",
+    "description":"A romantic action thriller where a gangster with a tragic past falls in love with a free-spirited girl, but their love story takes a dark turn when a serial killer enters their lives."
+   },
+   {
+   "title": "Entertainment",
+    "type": "Movie",
+    "genres": ["Action","Comedy","Drama","Family"],
+    "year": 2014,
+    "language": "Hindi",
+    "rating":5.2,
+    "poster": "Entertainment.jpg",
+    "description":"Entertainment is a Bollywood comedy film starring Akshay Kumar and Tamannaah Bhatia. The story follows a man named Akhil who learns that his billionaire father has left his entire fortune to a dog named Entertainment."
+   },
+   {
+   "title": "Fanaa",
+    "type": "Movie",
+    "genres": ["Romance","Thriller","Drama"],
+    "year": 2006,
+    "language": "Hindi",
+    "rating":6.1,
+    "poster": "Fanaa.jpg",
+    "description":"Fanaa is a 2006 Bollywood romantic thriller about Zooni, a visually impaired Kashmiri girl who falls in love with a charming tour guide, Rehan. Their love story takes a dark turn when shocking secrets about Rehan’s true identity are revealed, blending romance with themes of sacrifice, betrayal, and patriotism."
+   },
+   {
+   "title": "Fan",
+    "type": "Movie",
+    "genres": ["Action","Thriller","Drama"],
+    "year": 2016,
+    "language": "Hindi",
+    "rating":7.1,
+    "poster": "Fan.jpg",
+    "description":"It follows the story of Gaurav, a young man obsessed with superstar Aryan Khanna, both played by Shah Rukh Khan. When admiration turns into obsession, Gaurav’s fandom spirals into dangerous rivalry, leading to a tense battle between star and admirer."
+   },
+   {
+   "title": "Fitoor",
+    "type": "Movie",
+    "genres": ["Romantic Drama"],
+    "year": 2016,
+    "language": "Hindi",
+    "rating":8.3,
+    "poster": "Fitoor.jpg",
+    "description":"Fitoor is a Bollywood romantic drama directed by Abhishek Kapoor, inspired by Charles Dickens' novel Great Expectations. It follows the story of Noor, a poor Kashmiri boy who falls deeply in love with Firdaus, the daughter of a wealthy woman, leading to a tale of passion, heartbreak, and unfulfilled love set against the backdrop of Kashmir."
+   },
+   {
+   "title": "Chhaava",
+    "type": "Movie",
+    "genres": ["Drama","Historical Drama","Action"],
+    "year": 2025,
+    "language": "Hindi",
+    "rating":8.4,
+    "poster": "Chhaava.jpg",
+    "description":"It tells the story of Chhatrapati Sambhaji Maharaj, the valiant second ruler of the Maratha Empire, who leads the resistance against the Mughal ruler Aurangzeb. Adapted from Shivaji Sawant’s Marathi novel Chhava, the film portrays his bravery, strategy, betrayal, and unwavering spirit."
+   },
+   {
+   "title": "Gully Boy",
+    "type": "Movie",
+    "genres": ["Drama","Musical","Romance","Coming-of-Age"],
+    "year": 2019,
+    "language": "Hindi",
+    "rating":6.4,
+    "poster": "Gully Boy.jpg",
+    "description":"Gully Boy is a coming-of-age musical drama inspired by the lives of Indian street rappers Divine and Naezy. It follows Murad, a young man from the slums of Mumbai, who rises against social and economic odds to chase his dream of becoming a rap artist."
+   },
+   {
+   "title": "Golmaal",
+    "type": "Movie",
+    "genres": ["Drama","Comedy","Romance"],
+    "year": 2006,
+    "language": "Hindi",
+    "rating":7.4,
+    "poster": "Golmaal.jpg",
+    "description":"The story follows four friends—Gopal, Lucky, Madhav, and Laxman—who get caught up in a series of hilarious misunderstandings while trying to con their way into a blind couple’s house."
+   },
+   {
+   "title": "Hichki",
+    "type": "Movie",
+    "genres": ["Drama","Comedy","Family"],
+    "year": 2018,
+    "language": "Hindi",
+    "rating":6.4,
+    "poster": "Hichki.jpg",
+    "description":"Hichki is a Bollywood drama film starring Rani Mukerji as Naina Mathur, an aspiring teacher who has Tourette Syndrome. Despite facing rejection and societal prejudice, she lands a teaching job at an elite school and takes on the challenge of educating a group of underprivileged students, proving her determination and resilience."
+   },
+   {
+   "title": "Gangubai Kathiawadi",
+    "type": "Movie",
+    "genres": ["Drama","Biographical","Crime"],
+    "year": 2022,
+    "language": "Hindi",
+    "rating":7.6,
+    "poster": "Gangubai Kathiawadi.jpg",
+    "description":"The film stars Alia Bhatt as Gangubai, a young woman forced into prostitution who rises to become a powerful figure in Mumbai’s Kamathipura red-light district. It portrays her struggles, fight for women’s rights, and influence in the underworld."
+   },
+   {
+   "title": "Highway",
+    "type": "Movie",
+    "genres": ["Drama","Romance","Road Movie"],
+    "year": 2014,
+    "language": "Hindi",
+    "rating":6.6,
+    "poster": "Highway.jpg",
+    "description":"Highway is a 2014 Indian road drama film directed by Imtiaz Ali. It follows the story of a young woman, Veera, who is abducted just before her wedding but gradually develops a complex bond with her kidnapper during their journey across India. The film explores themes of freedom, trauma, and self-discovery."
+   },
+   {
+   "title": "Saiyaara",
+    "type": "Movie",
+    "genres": ["Drama","Romance","Musical"],
+    "year": 2025,
+    "language": "Hindi",
+    "rating":9.1,
+    "poster": "Saiyaara.jpg",
+    "description":"It follows Krish Kapoor, a troubled musician, who discovers and transforms the diary lyrics of Vaani Batra — a shy poet — into soulful songs, sparking a profound romantic connection between them. Their love is tested when Vaani is diagnosed with early-onset Alzheimer’s. The story navigates themes of memory, love, loss, and resilience."
 }
 ]
